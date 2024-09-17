@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML&CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Formulário DEV🔥</h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Digite seu nome" class="inputs">
+                <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div>
+                <input type="text" placeholder="Digite seu melhor e-mail" class="inputs">
+                <span class="span-required">Digite um e-mail válido</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Senha" class="inputs">
+                <span class="span-required">Senha com no mínimo 8 caracteres</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Repita sua senha" class="inputs">
+                <span class="span-required">Senhas devem ser compatíveis</span>
+            </div>
+            <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10"
+                placeholder="Fale um pouco sobre você..."></textarea>
+            <p>Sexo:</p>
+            <div class="box-select">
+                <div>
+                    <input type="radio" id-="m" value="m" name="sexo">
+                    <label for="m">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id-="f" value="f" name="sexo">
+                    <label for="f">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" id-="o" value="o" name="sexo">
+                    <label for="o">Outro</label>
+                </div>
+                <p>Quais suas experiências?</p>
+                <div class="box-select">
+                    <div>
+                        <input type="checkbox" id-="html" value="html" name="experiencias">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id-="css" value="css" name="experiencias">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id-="js" value="js" name="experiencias">
+                        <label for="js">JS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id-="php" value="php" name="php">
+                        <label for="php">PHP</label>
+                    </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
